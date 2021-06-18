@@ -1,0 +1,17 @@
+*.pyc
+*.egg-info
+*.geany
+*.sock
+*~
+
+settings.cfg
+versions.cfg
+.doit.db
+.python-version
+.installed.cfg
+
+bin
+tmp
+.vagrant
+.eggs
+.eggs-develop

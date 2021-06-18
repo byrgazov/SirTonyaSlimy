@@ -1,0 +1,5 @@
+$ pyenv local 3.7.10
+$ virtualenv --python=python3.7 --no-setuptools .venv
+$ .venv/bin/pip install -U pip zc.buildout doit
+$ .venv/bin/doit bootstrap
+$ .venv/bin/buildout
